@@ -1,0 +1,167 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "D:/Programs/satyam_seth_learnings/playwright_learning/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "name": "",
+        "testDir": "D:/Programs/satyam_seth_learnings/playwright_learning",
+        "testIgnore": [],
+        "testMatch": [
+          "recorded.test.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonReports/jsonReporter.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "rootDir": "D:/Programs/satyam_seth_learnings/playwright_learning",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.26.0",
+    "workers": 4,
+    "webServer": null,
+    "_watchMode": false,
+    "_webServers": [],
+    "_globalOutputDir": "D:\\Programs\\satyam_seth_learnings\\playwright_learning",
+    "_configDir": "D:\\Programs\\satyam_seth_learnings\\playwright_learning",
+    "_testGroupsCount": 1,
+    "_ignoreSnapshots": false,
+    "_workerIsolation": "isolate-pools"
+  },
+  "suites": [
+    {
+      "title": "tests\\recorded.test.ts",
+      "file": "tests/recorded.test.ts",
+      "line": 0,
+      "column": 0,
+      "specs": [
+        {
+          "title": "test",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "timedOut",
+                  "duration": 30008,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                  },
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2022-09-25T20:13:10.554Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\Programs\\satyam_seth_learnings\\playwright_learning\\test-results\\tests-recorded-test\\video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\Programs\\satyam_seth_learnings\\playwright_learning\\test-results\\tests-recorded-test\\test-failed-1.png"
+                    }
+                  ]
+                },
+                {
+                  "workerIndex": 1,
+                  "status": "timedOut",
+                  "duration": 30004,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                  },
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 1,
+                  "startTime": "2022-09-25T20:13:44.240Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\Programs\\satyam_seth_learnings\\playwright_learning\\test-results\\tests-recorded-test-retry1\\video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\Programs\\satyam_seth_learnings\\playwright_learning\\test-results\\tests-recorded-test-retry1\\test-failed-1.png"
+                    }
+                  ]
+                },
+                {
+                  "workerIndex": 2,
+                  "status": "timedOut",
+                  "duration": 30003,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                  },
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 2,
+                  "startTime": "2022-09-25T20:14:17.881Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\Programs\\satyam_seth_learnings\\playwright_learning\\test-results\\tests-recorded-test-retry2\\video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\Programs\\satyam_seth_learnings\\playwright_learning\\test-results\\tests-recorded-test-retry2\\test-failed-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "aeb89487b60598200775-764e062666c472cf22f2",
+          "file": "tests/recorded.test.ts",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
