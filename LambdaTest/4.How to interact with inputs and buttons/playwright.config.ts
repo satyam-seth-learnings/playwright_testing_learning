@@ -1,7 +1,7 @@
 import type { PlaywrightTestConfig } from '@playwright/test';
 
 const config: PlaywrightTestConfig = {
-  "testMatch": ['tests/recorded.test.ts'],
+  "testMatch": ['tests/basicinteractions.test.ts'],
 
   use: {
     headless: false,
@@ -24,7 +24,7 @@ const config: PlaywrightTestConfig = {
     [
       'html',
       {
-        open: 'never'
+        open: 'always'
       }
     ]
   ]
