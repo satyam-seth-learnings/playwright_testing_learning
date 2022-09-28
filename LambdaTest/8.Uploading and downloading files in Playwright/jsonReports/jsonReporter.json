@@ -1,0 +1,120 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "D:/Programs/satyam_seth_learnings/playwright_learning/demo/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "name": "",
+        "testDir": "D:/Programs/satyam_seth_learnings/playwright_learning/demo",
+        "testIgnore": [],
+        "testMatch": [
+          "tests/uploadDownload.test.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonReports/jsonReporter.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "always"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "rootDir": "D:/Programs/satyam_seth_learnings/playwright_learning/demo",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.26.0",
+    "workers": 4,
+    "webServer": null,
+    "_watchMode": false,
+    "_webServers": [],
+    "_globalOutputDir": "D:\\Programs\\satyam_seth_learnings\\playwright_learning\\demo",
+    "_configDir": "D:\\Programs\\satyam_seth_learnings\\playwright_learning\\demo",
+    "_testGroupsCount": 1,
+    "_ignoreSnapshots": false,
+    "_workerIsolation": "isolate-pools"
+  },
+  "suites": [
+    {
+      "title": "tests\\uploadDownload.test.ts",
+      "file": "tests/uploadDownload.test.ts",
+      "line": 0,
+      "column": 0,
+      "specs": [
+        {
+          "title": "Upload files",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 6249,
+                  "stdout": [
+                    {
+                      "text": "\u001b[33mtrue\u001b[39m\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2022-09-28T18:25:49.438Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\Programs\\satyam_seth_learnings\\playwright_learning\\demo\\test-results\\tests-uploadDownload-Upload-files\\video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\Programs\\satyam_seth_learnings\\playwright_learning\\demo\\test-results\\tests-uploadDownload-Upload-files\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "bff505410ff9353f2355-f633d1ef960e0b51938a",
+          "file": "tests/uploadDownload.test.ts",
+          "line": 24,
+          "column": 6
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

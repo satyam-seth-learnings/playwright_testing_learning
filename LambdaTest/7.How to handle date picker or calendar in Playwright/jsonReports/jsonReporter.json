@@ -1,0 +1,200 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "D:/Programs/satyam_seth_learnings/playwright_learning/demo/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "name": "",
+        "testDir": "D:/Programs/satyam_seth_learnings/playwright_learning/demo",
+        "testIgnore": [],
+        "testMatch": [
+          "tests/calendar.test.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonReports/jsonReporter.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "always"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "rootDir": "D:/Programs/satyam_seth_learnings/playwright_learning/demo",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.26.0",
+    "workers": 4,
+    "webServer": null,
+    "_watchMode": false,
+    "_webServers": [],
+    "_globalOutputDir": "D:\\Programs\\satyam_seth_learnings\\playwright_learning\\demo",
+    "_configDir": "D:\\Programs\\satyam_seth_learnings\\playwright_learning\\demo",
+    "_testGroupsCount": 1,
+    "_ignoreSnapshots": false,
+    "_workerIsolation": "isolate-pools"
+  },
+  "suites": [
+    {
+      "title": "tests\\calendar.test.ts",
+      "file": "tests/calendar.test.ts",
+      "line": 0,
+      "column": 0,
+      "specs": [
+        {
+          "title": "Calendar demo using fill function",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "skip"
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "skipped",
+                  "duration": 0,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2022-09-28T17:33:32.872Z",
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "68c95afee124c9066c67-a6070fc4dbfb9770c8d9",
+          "file": "tests/calendar.test.ts",
+          "line": 4,
+          "column": 6
+        },
+        {
+          "title": "Calendar demo using moment",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "timedOut",
+                  "duration": 30001,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                  },
+                  "stdout": [
+                    {
+                      "text": "this month? true\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2022-09-28T17:33:32.872Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\Programs\\satyam_seth_learnings\\playwright_learning\\demo\\test-results\\tests-calendar-Calendar-demo-using-moment\\video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\Programs\\satyam_seth_learnings\\playwright_learning\\demo\\test-results\\tests-calendar-Calendar-demo-using-moment\\test-failed-1.png"
+                    }
+                  ]
+                },
+                {
+                  "workerIndex": 1,
+                  "status": "failed",
+                  "duration": 4529,
+                  "error": {
+                    "message": "locator.textContent: Target page, context or browser has been closed",
+                    "stack": "locator.textContent: Target page, context or browser has been closed\n    at selectDate (D:\\Programs\\satyam_seth_learnings\\playwright_learning\\demo\\tests\\calendar.test.ts:41:27)\n    at D:\\Programs\\satyam_seth_learnings\\playwright_learning\\demo\\tests\\calendar.test.ts:16:5"
+                  },
+                  "stdout": [
+                    {
+                      "text": "this month? true\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 1,
+                  "startTime": "2022-09-28T17:34:04.313Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\Programs\\satyam_seth_learnings\\playwright_learning\\demo\\test-results\\tests-calendar-Calendar-demo-using-moment-retry1\\video.webm"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "D:\\Programs\\satyam_seth_learnings\\playwright_learning\\demo\\tests\\calendar.test.ts",
+                    "column": 27,
+                    "line": 41
+                  }
+                },
+                {
+                  "workerIndex": 2,
+                  "status": "interrupted",
+                  "duration": 22,
+                  "error": {
+                    "message": "browserContext.newPage: Browser closed.\n==================== Browser output: ====================\n<launching> C:\\Users\\LENOVO\\AppData\\Local\\ms-playwright\\chromium-1024\\chrome-win\\chrome.exe --disable-field-trial-config --disable-background-networking --enable-features=NetworkService,NetworkServiceInProcess --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-sync --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --no-sandbox --user-data-dir=C:\\Users\\LENOVO\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-32d0rg --remote-debugging-pipe --no-startup-window\n<launched> pid=55648\n[pid=55648] <gracefully close start>",
+                    "stack": "browserContext.newPage: Browser closed.\n==================== Browser output: ====================\n<launching> C:\\Users\\LENOVO\\AppData\\Local\\ms-playwright\\chromium-1024\\chrome-win\\chrome.exe --disable-field-trial-config --disable-background-networking --enable-features=NetworkService,NetworkServiceInProcess --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-sync --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --no-sandbox --user-data-dir=C:\\Users\\LENOVO\\AppData\\Local\\Temp\\playwright_chromiumdev_profile-32d0rg --remote-debugging-pipe --no-startup-window\n<launched> pid=55648\n[pid=55648] <gracefully close start>\n"
+                  },
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 2,
+                  "startTime": "2022-09-28T17:34:09.857Z",
+                  "attachments": []
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "68c95afee124c9066c67-e961e375f88120946d44",
+          "file": "tests/calendar.test.ts",
+          "line": 12,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

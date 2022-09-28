@@ -1,0 +1,171 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "D:/Programs/satyam_seth_learnings/playwright_learning/demo/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "name": "",
+        "testDir": "D:/Programs/satyam_seth_learnings/playwright_learning/demo",
+        "testIgnore": [],
+        "testMatch": [
+          "tests/windows.test.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonReports/jsonReporter.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "always"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "rootDir": "D:/Programs/satyam_seth_learnings/playwright_learning/demo",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.26.0",
+    "workers": 4,
+    "webServer": null,
+    "_watchMode": false,
+    "_webServers": [],
+    "_globalOutputDir": "D:\\Programs\\satyam_seth_learnings\\playwright_learning\\demo",
+    "_configDir": "D:\\Programs\\satyam_seth_learnings\\playwright_learning\\demo",
+    "_testGroupsCount": 1,
+    "_ignoreSnapshots": false,
+    "_workerIsolation": "isolate-pools"
+  },
+  "suites": [
+    {
+      "title": "tests\\windows.test.ts",
+      "file": "tests/windows.test.ts",
+      "line": 0,
+      "column": 0,
+      "specs": [
+        {
+          "title": "Interact with multiple tabs",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 6360,
+                  "stdout": [
+                    {
+                      "text": "https://www.lambdatest.com/selenium-playground/window-popup-modal-demo\n"
+                    },
+                    {
+                      "text": "https://twitter.com/Lambdatesting\n"
+                    },
+                    {
+                      "text": "No.of tabs: 4\n"
+                    },
+                    {
+                      "text": "https://www.lambdatest.com/selenium-playground/window-popup-modal-demo\n"
+                    },
+                    {
+                      "text": "https://twitter.com/Lambdatesting\n"
+                    },
+                    {
+                      "text": "https://www.facebook.com/lambdatest/\n"
+                    },
+                    {
+                      "text": "https://twitter.com/intent/follow?screen_name=Lambdatesting\n"
+                    },
+                    {
+                      "text": "LambdaTest\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2022-09-28T16:58:40.065Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\Programs\\satyam_seth_learnings\\playwright_learning\\demo\\test-results\\tests-windows-Interact-with-multiple-tabs\\video-1.webm"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\Programs\\satyam_seth_learnings\\playwright_learning\\demo\\test-results\\tests-windows-Interact-with-multiple-tabs\\video-2.webm"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\Programs\\satyam_seth_learnings\\playwright_learning\\demo\\test-results\\tests-windows-Interact-with-multiple-tabs\\video.webm"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\Programs\\satyam_seth_learnings\\playwright_learning\\demo\\test-results\\tests-windows-Interact-with-multiple-tabs\\video-3.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\Programs\\satyam_seth_learnings\\playwright_learning\\demo\\test-results\\tests-windows-Interact-with-multiple-tabs\\test-finished-1.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\Programs\\satyam_seth_learnings\\playwright_learning\\demo\\test-results\\tests-windows-Interact-with-multiple-tabs\\test-finished-2.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\Programs\\satyam_seth_learnings\\playwright_learning\\demo\\test-results\\tests-windows-Interact-with-multiple-tabs\\test-finished-3.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\Programs\\satyam_seth_learnings\\playwright_learning\\demo\\test-results\\tests-windows-Interact-with-multiple-tabs\\test-finished-4.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98c21ebe87e39c315e15-ab38da95de1cb30408a1",
+          "file": "tests/windows.test.ts",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
