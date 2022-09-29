@@ -1,0 +1,214 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "D:/Programs/satyam_seth_learnings/playwright_learning/demo/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "name": "",
+        "testDir": "D:/Programs/satyam_seth_learnings/playwright_learning/demo",
+        "testIgnore": [],
+        "testMatch": [
+          "pomtest/addToCart.test.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonReports/jsonReporter.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "always"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "rootDir": "D:/Programs/satyam_seth_learnings/playwright_learning/demo",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.26.0",
+    "workers": 4,
+    "webServer": null,
+    "_watchMode": false,
+    "_webServers": [],
+    "_globalOutputDir": "D:\\Programs\\satyam_seth_learnings\\playwright_learning\\demo",
+    "_configDir": "D:\\Programs\\satyam_seth_learnings\\playwright_learning\\demo",
+    "_testGroupsCount": 1,
+    "_ignoreSnapshots": false,
+    "_workerIsolation": "isolate-pools"
+  },
+  "suites": [
+    {
+      "title": "pomtest\\addToCart.test.ts",
+      "file": "pomtest/addToCart.test.ts",
+      "line": 0,
+      "column": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Page object test demo",
+          "file": "pomtest/addToCart.test.ts",
+          "line": 9,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Register test_01",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 7519,
+                      "stdout": [
+                        {
+                          "text": "TITLE: Register test_01\n"
+                        },
+                        {
+                          "text": "STATUS: passed\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2022-09-29T03:28:11.717Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\Programs\\satyam_seth_learnings\\playwright_learning\\demo\\test-results\\pomtest-addToCart-Page-object-test-demo-Register-test-01\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\Programs\\satyam_seth_learnings\\playwright_learning\\demo\\test-results\\pomtest-addToCart-Page-object-test-demo-Register-test-01\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1c188a18f2ecab048a02-86642b9810edb653b306",
+              "file": "pomtest/addToCart.test.ts",
+              "line": 14,
+              "column": 5
+            },
+            {
+              "title": "Login test_02",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 8589,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2022-09-29T03:28:19.700Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\Programs\\satyam_seth_learnings\\playwright_learning\\demo\\test-results\\pomtest-addToCart-Page-object-test-demo-Login-test-02\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\Programs\\satyam_seth_learnings\\playwright_learning\\demo\\test-results\\pomtest-addToCart-Page-object-test-demo-Login-test-02\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1c188a18f2ecab048a02-a0eaf758cc1037d32d65",
+              "file": "pomtest/addToCart.test.ts",
+              "line": 33,
+              "column": 5
+            },
+            {
+              "title": "Add to cart test_03",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 11894,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2022-09-29T03:28:28.291Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\Programs\\satyam_seth_learnings\\playwright_learning\\demo\\test-results\\pomtest-addToCart-Page-object-test-demo-Add-to-cart-test-03\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\Programs\\satyam_seth_learnings\\playwright_learning\\demo\\test-results\\pomtest-addToCart-Page-object-test-demo-Add-to-cart-test-03\\test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1c188a18f2ecab048a02-a6dccac7fc9203eebacb",
+              "file": "pomtest/addToCart.test.ts",
+              "line": 42,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
